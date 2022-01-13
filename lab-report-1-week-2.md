@@ -33,9 +33,11 @@ Since I am on windows there are extra steps at this link. https://docs.microsoft
 Enter Password
 # now on server
 `$ mkdir .ssh`
+
 `$ exit`
 # back on client
 `$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
 You use your username and the path you saw in the command above
 
 
