@@ -7,7 +7,8 @@ After downloading visual studio code go to https://sdacs.ucsd.edu/~icc/index.php
 
 You then have to install SSH. 
 Follow this tutorial:
- https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse. 
+
+https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse. 
 
 After you can log in like seen below. Password is the one created in the lookup.
 ![Image](ssh-login.PNG)
@@ -26,15 +27,21 @@ Next create an ssh key on your computer using this command. “ssh-keygen”.
 
 ![Image](ssh-keygen.PNG)
 
-Since I am on windows there are extra steps at this link. https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation. 
+Since I am on windows there are extra steps at this link. 
+
+https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation. 
 
 
 `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
+
 Enter Password
+
 # now on server
+
 `$ mkdir .ssh`
 
 `$ exit`
+
 # back on client
 `$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
