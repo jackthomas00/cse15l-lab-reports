@@ -3,12 +3,12 @@ Go to code.visualstudio.com to download visual studio code.
 ![Image](VS-code-download.PNG)
 ![Image](vs-code.PNG)
 
-After downloading visual studio code go to https://sdacs.ucsd.edu/~icc/index.php and look up your account with UCSD. I believe you change your password and find the email associated with your account. All that is different is the last 3 characters after wi22. 
+After downloading visual studio code go to [Link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account with UCSD. I believe you change your password and find the email associated with your account. All that is different is the last 3 characters after wi22. 
 
 You then have to install SSH. 
 Follow this tutorial:
 
-https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse. 
+[Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) 
 
 After you can log in like seen below. Password is the one created in the lookup.
 ![Image](ssh-login.PNG)
@@ -29,7 +29,7 @@ Next create an ssh key on your computer using this command. “ssh-keygen”.
 
 Since I am on windows there are extra steps at this link. 
 
-https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation. 
+[Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
 
 `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
