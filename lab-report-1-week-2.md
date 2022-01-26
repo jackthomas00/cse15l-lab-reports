@@ -1,7 +1,11 @@
-
+(#heading1) Installing VScode
+ 
 Go to code.visualstudio.com to download visual studio code.
 ![Image](VS-code-download.PNG)
+
 ![Image](vs-code.PNG)
+
+(#heading1)Remotely Connecting
 
 After downloading visual studio code go to [Link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account with UCSD. I believe you change your password and find the email associated with your account. All that is different is the last 3 characters after wi22. 
 
