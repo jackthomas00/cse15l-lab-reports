@@ -64,6 +64,11 @@ You can write a command in quotes at the end of an ssh command to directly run i
 
 `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
+You should be able to login without a password and see the result of your command.
+
+![Image](optimize-login.PNG)
+
 You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
 
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
