@@ -10,10 +10,6 @@ Here is failure inducing test file.
 
 [link to file!](https://github.com/jackthomas00/markdown-parse/blob/main/test-file3.md)
 
-#### command
-
-`$ ssh cs15lwi22zz@ieng6.ucsd.edu`
-
 Here is output of that input.
 
 ![Image](error-output-1.PNG)
