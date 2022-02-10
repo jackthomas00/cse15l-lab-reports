@@ -1,5 +1,7 @@
 # Lab report 3
 
+## Streamline ssh configuration
+
 ### Config File
 
 ![Image](config-file.PNG)
