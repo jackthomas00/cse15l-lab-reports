@@ -4,9 +4,15 @@
 
 ![Image](change-diff-1.PNG)
 
+I added an if to check if we are getting -1 for finding the two brackets which caused the infinite loop.
+
 Here is failure inducing test file.
 
 [link to file!](https://github.com/jackthomas00/markdown-parse/blob/main/test-file3.md)
+
+#### command
+
+`$ ssh cs15lwi22zz@ieng6.ucsd.edu`
 
 Here is output of that input.
 
@@ -17,6 +23,8 @@ The bug is we are not skipping over lines without parentheses. When there is not
 ## Change 2
 
 ![Image](change-diff-2.PNG)
+
+Added the second if on line 25 to check if we are adding an image by mistake and breaks out from adding that if we are. 
 
 Here is failure inducing test file.
 
@@ -31,6 +39,8 @@ The bug is we add a link because we don't check if it starts with an "!" or not.
 ## Change 3
 
 ![Image](change-diff-3.PNG)
+
+Here we check to make sure we don't try to add a link that doesn't exist if there are no parentheses. If there are no parentheses we break out of the loop.
 
 Here is failure inducing test file.
 
