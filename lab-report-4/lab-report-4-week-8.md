@@ -19,6 +19,8 @@ Here is the code to test this case.
 
 Summary of fix for my code change if (<10 lines) ish
 
+I think there is small fix of just having an if for backticks to make sure they are not included in the link.
+
 ### Kathy's code result
 
 ![Image](snippet-1-result-kathy.PNG)
@@ -38,6 +40,8 @@ Here is the code to test this case.
 
 Summary of fix for my code change if (<10 lines) ish
 
+I think this a more involved fix similar to the function shown in class of creating something to keep track of open and close parentheses so that one close paretheneses doesn't end the link.
+
 ### Kathy's code result
 
 ![Image](snippet-2-result-kathy.PNG)
@@ -56,6 +60,8 @@ Here is the code to test this case.
 ![Image](snippet-3-result-mine.PNG)
 
 Summary of fix for my code change if (<10 lines) ish
+
+I think the fix to snippet 3 would be using trim to get rid of blank lines so that way blank lines are included in the link. 
 
 ### Kathy's code result
 
