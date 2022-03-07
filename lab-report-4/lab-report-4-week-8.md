@@ -13,6 +13,10 @@ Here is the code to test this case.
 
 ![Image](snippet-1-test-code.PNG)
 
+### Expected Result
+
+![Image](snippet-1-expected.PNG)
+
 ### Result for my code
 
 ![Image](snippet-1-result-mine.PNG)
@@ -34,6 +38,10 @@ Here is the code to test this case.
 
 ![Image](snippet-2-test-code.PNG)
 
+### Expected Result
+
+![Image](snippet-1-expected.PNG)
+
 ### Result for my code
 
 ![Image](snippet-2-result-mine.PNG)
@@ -54,6 +62,10 @@ It should produce 3 links;  "https://www.twitter.com", "https://ucsd-cse15l-w22.
 Here is the code to test this case.
 
 ![Image](snippet-3-test-code.PNG)
+
+### Expected Result
+
+![Image](snippet-1-expected.PNG)
 
 ### Result for my code
 
