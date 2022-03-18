@@ -14,8 +14,13 @@ I found the two tests with git diff
 
 ![Image](test-41-actual.PNG)
 
-The fix is to check for a space in the middle by using indexOf after we trim the characters.
+The fix is to check for a space in the middle by using indexOf after we trim the characters. I was thinking a fix like this would solve the issue at the end of the while loop, but before the adding of the section obviously.
 
+```
+if (content.indexOf(' ') != -1) {
+  return;
+}
+```
 
 ### Test 32
 
