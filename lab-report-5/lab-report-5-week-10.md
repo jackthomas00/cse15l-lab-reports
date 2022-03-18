@@ -22,6 +22,10 @@ if (content.indexOf(' ') != -1) {
 }
 ```
 
+And this code would be put in here.
+
+![Image](test-41-original-code.PNG)
+
 ### Test 32
 
 For some reason I think mine is partially correct. Mine has a link while the instructors repository didn't get one. I don't have any idea how to change mine so that it has "föö" instead of "&ouml". The "föö" should be the most accurate result, but no way that happens. Also it doesn't make sense for a link with a space to be a valid link
