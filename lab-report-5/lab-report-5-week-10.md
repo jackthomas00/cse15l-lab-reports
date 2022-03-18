@@ -18,7 +18,7 @@ The fix is to check for a space in the middle by using indexOf after we trim the
 
 ```
 if (content.indexOf(' ') != -1) {
-  return;
+  break;
 }
 ```
 
@@ -43,13 +43,12 @@ For some reason I think mine is partially correct. Mine has a link while the ins
 I think that the fix here is to check for the quotes and ignore that plus the space to make it so we only get `/f&ouml;&ouml;`. It would have to a subsection of the checking for a space in the middle. Might look something like:
 
 ```
-if (content.indexOf(' ') != -1) {
-  if (content.indexOf('/') != -1) {
-    content = content.substring(0, content.indexOf(' '));
-    return content;
+if (markdown.indexOf(' ') != -1) {
+  if (markdown.indexOf('/') != -1) {
+    closeParen = markdown.indexOf(' ');
   }
   else {
-    return;
+    break;
   }
 }
 ```
